@@ -1,0 +1,1788 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/vagrant_data/holidaybot',
+5 verbose install   [ 'cron',
+5 verbose install     'excel',
+5 verbose install     'hubot',
+5 verbose install     'hubot-diagnostics',
+5 verbose install     'hubot-google-images',
+5 verbose install     'hubot-google-translate',
+5 verbose install     'hubot-help',
+5 verbose install     'hubot-heroku-keepalive',
+5 verbose install     'hubot-maps',
+5 verbose install     'hubot-pugme',
+5 verbose install     'hubot-redis-brain',
+5 verbose install     'hubot-rules',
+5 verbose install     'hubot-scripts',
+5 verbose install     'hubot-shipit',
+5 verbose install     'hubot-slack',
+5 verbose install     'xlsx' ] ]
+6 info preinstall na-1@0.0.0
+7 warn package.json setimmediate@1.0.5 No README data
+8 warn package.json bcrypt-pbkdf@1.0.1 No repository field.
+9 warn package.json eyes@0.1.8 No repository field.
+10 warn package.json log@1.4.0 No repository field.
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping hubot-redis-brain@0.0.3 /vagrant_data/holidaybot
+13 verbose already installed skipping hubot-scripts@^2.17.2 /vagrant_data/holidaybot
+14 verbose already installed skipping hubot-rules@^0.1.1 /vagrant_data/holidaybot
+15 verbose already installed skipping hubot-shipit@^0.2.0 /vagrant_data/holidaybot
+16 verbose already installed skipping hubot-slack@^4.3.4 /vagrant_data/holidaybot
+17 verbose already installed skipping xlsx@^0.10.4 /vagrant_data/holidaybot
+18 verbose already installed skipping hubot@^2.19.0 /vagrant_data/holidaybot
+19 verbose already installed skipping cron@^1.2.1 /vagrant_data/holidaybot
+20 verbose already installed skipping excel@^0.1.7 /vagrant_data/holidaybot
+21 verbose already installed skipping hubot-diagnostics@0.0.1 /vagrant_data/holidaybot
+22 verbose already installed skipping hubot-google-images@^0.2.6 /vagrant_data/holidaybot
+23 verbose already installed skipping hubot-help@^0.2.0 /vagrant_data/holidaybot
+24 verbose already installed skipping hubot-google-translate@^0.2.0 /vagrant_data/holidaybot
+25 verbose already installed skipping hubot-heroku-keepalive@^1.0.2 /vagrant_data/holidaybot
+26 verbose already installed skipping hubot-maps@0.0.2 /vagrant_data/holidaybot
+27 verbose already installed skipping hubot-pugme@^0.1.0 /vagrant_data/holidaybot
+28 silly resolved []
+29 info build /vagrant_data/holidaybot
+30 verbose linkStuff [ false, false, false, '/vagrant_data' ]
+31 info linkStuff na-1@0.0.0
+32 verbose linkBins na-1@0.0.0
+33 verbose linkMans na-1@0.0.0
+34 verbose rebuildBundles na-1@0.0.0
+35 verbose rebuildBundles [ '.bin',
+35 verbose rebuildBundles   '@slack',
+35 verbose rebuildBundles   'abbrev',
+35 verbose rebuildBundles   'accepts',
+35 verbose rebuildBundles   'adler-32',
+35 verbose rebuildBundles   'agent-base',
+35 verbose rebuildBundles   'ajv',
+35 verbose rebuildBundles   'ansi-regex',
+35 verbose rebuildBundles   'ansi-styles',
+35 verbose rebuildBundles   'aproba',
+35 verbose rebuildBundles   'are-we-there-yet',
+35 verbose rebuildBundles   'asn1',
+35 verbose rebuildBundles   'assert-plus',
+35 verbose rebuildBundles   'async',
+35 verbose rebuildBundles   'asynckit',
+35 verbose rebuildBundles   'aws-sign2',
+35 verbose rebuildBundles   'aws4',
+35 verbose rebuildBundles   'balanced-match',
+35 verbose rebuildBundles   'base64-url',
+35 verbose rebuildBundles   'basic-auth',
+35 verbose rebuildBundles   'basic-auth-connect',
+35 verbose rebuildBundles   'batch',
+35 verbose rebuildBundles   'bcrypt-pbkdf',
+35 verbose rebuildBundles   'binary',
+35 verbose rebuildBundles   'bindings',
+35 verbose rebuildBundles   'block-stream',
+35 verbose rebuildBundles   'bluebird',
+35 verbose rebuildBundles   'body-parser',
+35 verbose rebuildBundles   'boom',
+35 verbose rebuildBundles   'brace-expansion',
+35 verbose rebuildBundles   'buffers',
+35 verbose rebuildBundles   'bytes',
+35 verbose rebuildBundles   'caseless',
+35 verbose rebuildBundles   'cfb',
+35 verbose rebuildBundles   'chainsaw',
+35 verbose rebuildBundles   'chalk',
+35 verbose rebuildBundles   'cline',
+35 verbose rebuildBundles   'co',
+35 verbose rebuildBundles   'code-point-at',
+35 verbose rebuildBundles   'codepage',
+35 verbose rebuildBundles   'coffee-script',
+35 verbose rebuildBundles   'colors',
+35 verbose rebuildBundles   'combined-stream',
+35 verbose rebuildBundles   'commander',
+35 verbose rebuildBundles   'compressible',
+35 verbose rebuildBundles   'compression',
+35 verbose rebuildBundles   'concat-map',
+35 verbose rebuildBundles   'concat-stream',
+35 verbose rebuildBundles   'connect',
+35 verbose rebuildBundles   'connect-multiparty',
+35 verbose rebuildBundles   'connect-timeout',
+35 verbose rebuildBundles   'console-control-strings',
+35 verbose rebuildBundles   'content-disposition',
+35 verbose rebuildBundles   'content-type',
+35 verbose rebuildBundles   'cookie',
+35 verbose rebuildBundles   'cookie-parser',
+35 verbose rebuildBundles   'cookie-signature',
+35 verbose rebuildBundles   'core-util-is',
+35 verbose rebuildBundles   'crc',
+35 verbose rebuildBundles   'crc-32',
+35 verbose rebuildBundles   'cron',
+35 verbose rebuildBundles   'cryptiles',
+35 verbose rebuildBundles   'csrf',
+35 verbose rebuildBundles   'csurf',
+35 verbose rebuildBundles   'cycle',
+35 verbose rebuildBundles   'dashdash',
+35 verbose rebuildBundles   'debug',
+35 verbose rebuildBundles   'deep-extend',
+35 verbose rebuildBundles   'delayed-stream',
+35 verbose rebuildBundles   'delegates',
+35 verbose rebuildBundles   'depd',
+35 verbose rebuildBundles   'destroy',
+35 verbose rebuildBundles   'ecc-jsbn',
+35 verbose rebuildBundles   'ee-first',
+35 verbose rebuildBundles   'errorhandler',
+35 verbose rebuildBundles   'escape-html',
+35 verbose rebuildBundles   'escape-string-regexp',
+35 verbose rebuildBundles   'etag',
+35 verbose rebuildBundles   'eventemitter3',
+35 verbose rebuildBundles   'excel',
+35 verbose rebuildBundles   'exit-on-epipe',
+35 verbose rebuildBundles   'express',
+35 verbose rebuildBundles   'express-session',
+35 verbose rebuildBundles   'extend',
+35 verbose rebuildBundles   'extsprintf',
+35 verbose rebuildBundles   'eyes',
+35 verbose rebuildBundles   'finalhandler',
+35 verbose rebuildBundles   'forever-agent',
+35 verbose rebuildBundles   'form-data',
+35 verbose rebuildBundles   'forwarded',
+35 verbose rebuildBundles   'frac',
+35 verbose rebuildBundles   'fresh',
+35 verbose rebuildBundles   'fs.realpath',
+35 verbose rebuildBundles   'fstream',
+35 verbose rebuildBundles   'fstream-ignore',
+35 verbose rebuildBundles   'gauge',
+35 verbose rebuildBundles   'getpass',
+35 verbose rebuildBundles   'glob',
+35 verbose rebuildBundles   'graceful-fs',
+35 verbose rebuildBundles   'graceful-readlink',
+35 verbose rebuildBundles   'har-schema',
+35 verbose rebuildBundles   'har-validator',
+35 verbose rebuildBundles   'has-ansi',
+35 verbose rebuildBundles   'has-unicode',
+35 verbose rebuildBundles   'hawk',
+35 verbose rebuildBundles   'hoek',
+35 verbose rebuildBundles   'http-errors',
+35 verbose rebuildBundles   'http-signature',
+35 verbose rebuildBundles   'https-proxy-agent',
+35 verbose rebuildBundles   'hubot',
+35 verbose rebuildBundles   'hubot-diagnostics',
+35 verbose rebuildBundles   'hubot-google-images',
+35 verbose rebuildBundles   'hubot-google-translate',
+35 verbose rebuildBundles   'hubot-help',
+35 verbose rebuildBundles   'hubot-heroku-keepalive',
+35 verbose rebuildBundles   'hubot-maps',
+35 verbose rebuildBundles   'hubot-pugme',
+35 verbose rebuildBundles   'hubot-redis-brain',
+35 verbose rebuildBundles   'hubot-rules',
+35 verbose rebuildBundles   'hubot-scripts',
+35 verbose rebuildBundles   'hubot-shipit',
+35 verbose rebuildBundles   'hubot-slack',
+35 verbose rebuildBundles   'iconv-lite',
+35 verbose rebuildBundles   'inflight',
+35 verbose rebuildBundles   'inherits',
+35 verbose rebuildBundles   'ini',
+35 verbose rebuildBundles   'ipaddr.js',
+35 verbose rebuildBundles   'is-fullwidth-code-point',
+35 verbose rebuildBundles   'is-typedarray',
+35 verbose rebuildBundles   'isarray',
+35 verbose rebuildBundles   'isstream',
+35 verbose rebuildBundles   'jsbn',
+35 verbose rebuildBundles   'json-schema',
+35 verbose rebuildBundles   'json-stable-stringify',
+35 verbose rebuildBundles   'json-stringify-safe',
+35 verbose rebuildBundles   'jsonify',
+35 verbose rebuildBundles   'jsprim',
+35 verbose rebuildBundles   'libxmljs',
+35 verbose rebuildBundles   'lodash',
+35 verbose rebuildBundles   'log',
+35 verbose rebuildBundles   'match-stream',
+35 verbose rebuildBundles   'media-typer',
+35 verbose rebuildBundles   'merge-descriptors',
+35 verbose rebuildBundles   'method-override',
+35 verbose rebuildBundles   'methods',
+35 verbose rebuildBundles   'mime',
+35 verbose rebuildBundles   'mime-db',
+35 verbose rebuildBundles   'mime-types',
+35 verbose rebuildBundles   'minimatch',
+35 verbose rebuildBundles   'minimist',
+35 verbose rebuildBundles   'mkdirp',
+35 verbose rebuildBundles   'moment',
+35 verbose rebuildBundles   'moment-timezone',
+35 verbose rebuildBundles   'morgan',
+35 verbose rebuildBundles   'ms',
+35 verbose rebuildBundles   'multiparty',
+35 verbose rebuildBundles   'nan',
+35 verbose rebuildBundles   'natives',
+35 verbose rebuildBundles   'negotiator',
+35 verbose rebuildBundles   'node-pre-gyp',
+35 verbose rebuildBundles   'node-promise',
+35 verbose rebuildBundles   'nopt',
+35 verbose rebuildBundles   'npmlog',
+35 verbose rebuildBundles   'number-is-nan',
+35 verbose rebuildBundles   'oauth-sign',
+35 verbose rebuildBundles   'object-assign',
+35 verbose rebuildBundles   'on-finished',
+35 verbose rebuildBundles   'on-headers',
+35 verbose rebuildBundles   'once',
+35 verbose rebuildBundles   'options',
+35 verbose rebuildBundles   'optparse',
+35 verbose rebuildBundles   'os-homedir',
+35 verbose rebuildBundles   'os-tmpdir',
+35 verbose rebuildBundles   'osenv',
+35 verbose rebuildBundles   'over',
+35 verbose rebuildBundles   'parseurl',
+35 verbose rebuildBundles   'path-is-absolute',
+35 verbose rebuildBundles   'pause',
+35 verbose rebuildBundles   'performance-now',
+35 verbose rebuildBundles   'pkginfo',
+35 verbose rebuildBundles   'printj',
+35 verbose rebuildBundles   'process-nextick-args',
+35 verbose rebuildBundles   'proxy-addr',
+35 verbose rebuildBundles   'pullstream',
+35 verbose rebuildBundles   'punycode',
+35 verbose rebuildBundles   'qs',
+35 verbose rebuildBundles   'random-bytes',
+35 verbose rebuildBundles   'range-parser',
+35 verbose rebuildBundles   'raw-body',
+35 verbose rebuildBundles   'rc',
+35 verbose rebuildBundles   'readable-stream',
+35 verbose rebuildBundles   'redis',
+35 verbose rebuildBundles   'request',
+35 verbose rebuildBundles   'response-time',
+35 verbose rebuildBundles   'retry',
+35 verbose rebuildBundles   'rimraf',
+35 verbose rebuildBundles   'rndm',
+35 verbose rebuildBundles   'safe-buffer',
+35 verbose rebuildBundles   'scoped-http-client',
+35 verbose rebuildBundles   'semver',
+35 verbose rebuildBundles   'send',
+35 verbose rebuildBundles   'serve-favicon',
+35 verbose rebuildBundles   'serve-index',
+35 verbose rebuildBundles   'serve-static',
+35 verbose rebuildBundles   'set-blocking',
+35 verbose rebuildBundles   'setimmediate',
+35 verbose rebuildBundles   'signal-exit',
+35 verbose rebuildBundles   'slice-stream',
+35 verbose rebuildBundles   'sntp',
+35 verbose rebuildBundles   'ssf',
+35 verbose rebuildBundles   'sshpk',
+35 verbose rebuildBundles   'stack-trace',
+35 verbose rebuildBundles   'statuses',
+35 verbose rebuildBundles   'stream-counter',
+35 verbose rebuildBundles   'string-width',
+35 verbose rebuildBundles   'string_decoder',
+35 verbose rebuildBundles   'stringstream',
+35 verbose rebuildBundles   'strip-ansi',
+35 verbose rebuildBundles   'strip-json-comments',
+35 verbose rebuildBundles   'supports-color',
+35 verbose rebuildBundles   'tar',
+35 verbose rebuildBundles   'tar-pack',
+35 verbose rebuildBundles   'tough-cookie',
+35 verbose rebuildBundles   'traverse',
+35 verbose rebuildBundles   'tsscmp',
+35 verbose rebuildBundles   'tunnel-agent',
+35 verbose rebuildBundles   'tweetnacl',
+35 verbose rebuildBundles   'type-is',
+35 verbose rebuildBundles   'typedarray',
+35 verbose rebuildBundles   'uid-number',
+35 verbose rebuildBundles   'uid-safe',
+35 verbose rebuildBundles   'ultron',
+35 verbose rebuildBundles   'underscore',
+35 verbose rebuildBundles   'unpipe',
+35 verbose rebuildBundles   'unzip2',
+35 verbose rebuildBundles   'url-join',
+35 verbose rebuildBundles   'util-deprecate',
+35 verbose rebuildBundles   'utils-merge',
+35 verbose rebuildBundles   'uuid',
+35 verbose rebuildBundles   'vary',
+35 verbose rebuildBundles   'verror',
+35 verbose rebuildBundles   'vhost',
+35 verbose rebuildBundles   'voc',
+35 verbose rebuildBundles   'wide-align',
+35 verbose rebuildBundles   'winston',
+35 verbose rebuildBundles   'wrappy',
+35 verbose rebuildBundles   'ws',
+35 verbose rebuildBundles   'xlsx' ]
+36 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/abbrev
+37 info build /vagrant_data/holidaybot/node_modules/abbrev
+38 info preinstall abbrev@1.1.0
+39 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+40 info linkStuff abbrev@1.1.0
+41 verbose linkBins abbrev@1.1.0
+42 verbose linkMans abbrev@1.1.0
+43 verbose rebuildBundles abbrev@1.1.0
+44 info install abbrev@1.1.0
+45 info postinstall abbrev@1.1.0
+46 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/accepts
+47 info build /vagrant_data/holidaybot/node_modules/accepts
+48 info preinstall accepts@1.2.13
+49 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+50 info linkStuff accepts@1.2.13
+51 verbose linkBins accepts@1.2.13
+52 verbose linkMans accepts@1.2.13
+53 verbose rebuildBundles accepts@1.2.13
+54 verbose rebuildBundles [ 'mime-db', 'mime-types' ]
+55 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/accepts/node_modules/mime-db
+56 info build /vagrant_data/holidaybot/node_modules/accepts/node_modules/mime-db
+57 info preinstall mime-db@1.27.0
+58 verbose linkStuff [ false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/accepts/node_modules' ]
+59 info linkStuff mime-db@1.27.0
+60 verbose linkBins mime-db@1.27.0
+61 verbose linkMans mime-db@1.27.0
+62 verbose rebuildBundles mime-db@1.27.0
+63 info install mime-db@1.27.0
+64 info postinstall mime-db@1.27.0
+65 info install accepts@1.2.13
+66 info postinstall accepts@1.2.13
+67 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/adler-32
+68 info build /vagrant_data/holidaybot/node_modules/adler-32
+69 info preinstall adler-32@1.0.0
+70 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+71 info linkStuff adler-32@1.0.0
+72 verbose linkBins adler-32@1.0.0
+73 verbose link bins [ { adler32: './bin/adler32.njs' },
+73 verbose link bins   '/vagrant_data/holidaybot/node_modules/.bin',
+73 verbose link bins   false ]
+74 verbose linkMans adler-32@1.0.0
+75 verbose rebuildBundles adler-32@1.0.0
+76 verbose rebuildBundles [ 'exit-on-epipe' ]
+77 info install adler-32@1.0.0
+78 info postinstall adler-32@1.0.0
+79 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/agent-base
+80 info build /vagrant_data/holidaybot/node_modules/agent-base
+81 info preinstall agent-base@2.1.1
+82 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+83 info linkStuff agent-base@2.1.1
+84 verbose linkBins agent-base@2.1.1
+85 verbose linkMans agent-base@2.1.1
+86 verbose rebuildBundles agent-base@2.1.1
+87 info install agent-base@2.1.1
+88 info postinstall agent-base@2.1.1
+89 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ajv
+90 info build /vagrant_data/holidaybot/node_modules/ajv
+91 info preinstall ajv@4.11.8
+92 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+93 info linkStuff ajv@4.11.8
+94 verbose linkBins ajv@4.11.8
+95 verbose linkMans ajv@4.11.8
+96 verbose rebuildBundles ajv@4.11.8
+97 info install ajv@4.11.8
+98 info postinstall ajv@4.11.8
+99 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ansi-regex
+100 info build /vagrant_data/holidaybot/node_modules/ansi-regex
+101 info preinstall ansi-regex@2.1.1
+102 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+103 info linkStuff ansi-regex@2.1.1
+104 verbose linkBins ansi-regex@2.1.1
+105 verbose linkMans ansi-regex@2.1.1
+106 verbose rebuildBundles ansi-regex@2.1.1
+107 info install ansi-regex@2.1.1
+108 info postinstall ansi-regex@2.1.1
+109 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ansi-styles
+110 info build /vagrant_data/holidaybot/node_modules/ansi-styles
+111 info preinstall ansi-styles@2.2.1
+112 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+113 info linkStuff ansi-styles@2.2.1
+114 verbose linkBins ansi-styles@2.2.1
+115 verbose linkMans ansi-styles@2.2.1
+116 verbose rebuildBundles ansi-styles@2.2.1
+117 info install ansi-styles@2.2.1
+118 info postinstall ansi-styles@2.2.1
+119 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/aproba
+120 info build /vagrant_data/holidaybot/node_modules/aproba
+121 info preinstall aproba@1.1.2
+122 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+123 info linkStuff aproba@1.1.2
+124 verbose linkBins aproba@1.1.2
+125 verbose linkMans aproba@1.1.2
+126 verbose rebuildBundles aproba@1.1.2
+127 info install aproba@1.1.2
+128 info postinstall aproba@1.1.2
+129 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/are-we-there-yet
+130 info build /vagrant_data/holidaybot/node_modules/are-we-there-yet
+131 info preinstall are-we-there-yet@1.1.4
+132 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+133 info linkStuff are-we-there-yet@1.1.4
+134 verbose linkBins are-we-there-yet@1.1.4
+135 verbose linkMans are-we-there-yet@1.1.4
+136 verbose rebuildBundles are-we-there-yet@1.1.4
+137 verbose rebuildBundles [ 'isarray', 'readable-stream', 'safe-buffer', 'string_decoder' ]
+138 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules/isarray
+139 info build /vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules/isarray
+140 info preinstall isarray@1.0.0
+141 verbose linkStuff [ false,
+141 verbose linkStuff   false,
+141 verbose linkStuff   false,
+141 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules' ]
+142 info linkStuff isarray@1.0.0
+143 verbose linkBins isarray@1.0.0
+144 verbose linkMans isarray@1.0.0
+145 verbose rebuildBundles isarray@1.0.0
+146 info install isarray@1.0.0
+147 info postinstall isarray@1.0.0
+148 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules/safe-buffer
+149 info build /vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules/safe-buffer
+150 info preinstall safe-buffer@5.0.1
+151 verbose linkStuff [ false,
+151 verbose linkStuff   false,
+151 verbose linkStuff   false,
+151 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules' ]
+152 info linkStuff safe-buffer@5.0.1
+153 verbose linkBins safe-buffer@5.0.1
+154 verbose linkMans safe-buffer@5.0.1
+155 verbose rebuildBundles safe-buffer@5.0.1
+156 info install safe-buffer@5.0.1
+157 info postinstall safe-buffer@5.0.1
+158 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules/string_decoder
+159 info build /vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules/string_decoder
+160 info preinstall string_decoder@1.0.2
+161 verbose linkStuff [ false,
+161 verbose linkStuff   false,
+161 verbose linkStuff   false,
+161 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/are-we-there-yet/node_modules' ]
+162 info linkStuff string_decoder@1.0.2
+163 verbose linkBins string_decoder@1.0.2
+164 verbose linkMans string_decoder@1.0.2
+165 verbose rebuildBundles string_decoder@1.0.2
+166 info install string_decoder@1.0.2
+167 info postinstall string_decoder@1.0.2
+168 info install are-we-there-yet@1.1.4
+169 info postinstall are-we-there-yet@1.1.4
+170 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/asn1
+171 info build /vagrant_data/holidaybot/node_modules/asn1
+172 info preinstall asn1@0.2.3
+173 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+174 info linkStuff asn1@0.2.3
+175 verbose linkBins asn1@0.2.3
+176 verbose linkMans asn1@0.2.3
+177 verbose rebuildBundles asn1@0.2.3
+178 info install asn1@0.2.3
+179 info postinstall asn1@0.2.3
+180 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/assert-plus
+181 info build /vagrant_data/holidaybot/node_modules/assert-plus
+182 info preinstall assert-plus@0.2.0
+183 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+184 info linkStuff assert-plus@0.2.0
+185 verbose linkBins assert-plus@0.2.0
+186 verbose linkMans assert-plus@0.2.0
+187 verbose rebuildBundles assert-plus@0.2.0
+188 info install assert-plus@0.2.0
+189 info postinstall assert-plus@0.2.0
+190 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/async
+191 info build /vagrant_data/holidaybot/node_modules/async
+192 info preinstall async@0.9.2
+193 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+194 info linkStuff async@0.9.2
+195 verbose linkBins async@0.9.2
+196 verbose linkMans async@0.9.2
+197 verbose rebuildBundles async@0.9.2
+198 info install async@0.9.2
+199 info postinstall async@0.9.2
+200 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/asynckit
+201 info build /vagrant_data/holidaybot/node_modules/asynckit
+202 info preinstall asynckit@0.4.0
+203 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+204 info linkStuff asynckit@0.4.0
+205 verbose linkBins asynckit@0.4.0
+206 verbose linkMans asynckit@0.4.0
+207 verbose rebuildBundles asynckit@0.4.0
+208 info install asynckit@0.4.0
+209 info postinstall asynckit@0.4.0
+210 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/aws-sign2
+211 info build /vagrant_data/holidaybot/node_modules/aws-sign2
+212 info preinstall aws-sign2@0.6.0
+213 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+214 info linkStuff aws-sign2@0.6.0
+215 verbose linkBins aws-sign2@0.6.0
+216 verbose linkMans aws-sign2@0.6.0
+217 verbose rebuildBundles aws-sign2@0.6.0
+218 info install aws-sign2@0.6.0
+219 info postinstall aws-sign2@0.6.0
+220 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/aws4
+221 info build /vagrant_data/holidaybot/node_modules/aws4
+222 info preinstall aws4@1.6.0
+223 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+224 info linkStuff aws4@1.6.0
+225 verbose linkBins aws4@1.6.0
+226 verbose linkMans aws4@1.6.0
+227 verbose rebuildBundles aws4@1.6.0
+228 info install aws4@1.6.0
+229 info postinstall aws4@1.6.0
+230 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/balanced-match
+231 info build /vagrant_data/holidaybot/node_modules/balanced-match
+232 info preinstall balanced-match@0.4.2
+233 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+234 info linkStuff balanced-match@0.4.2
+235 verbose linkBins balanced-match@0.4.2
+236 verbose linkMans balanced-match@0.4.2
+237 verbose rebuildBundles balanced-match@0.4.2
+238 info install balanced-match@0.4.2
+239 info postinstall balanced-match@0.4.2
+240 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/base64-url
+241 info build /vagrant_data/holidaybot/node_modules/base64-url
+242 info preinstall base64-url@1.2.1
+243 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+244 info linkStuff base64-url@1.2.1
+245 verbose linkBins base64-url@1.2.1
+246 verbose linkMans base64-url@1.2.1
+247 verbose rebuildBundles base64-url@1.2.1
+248 info install base64-url@1.2.1
+249 info postinstall base64-url@1.2.1
+250 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/basic-auth
+251 info build /vagrant_data/holidaybot/node_modules/basic-auth
+252 info preinstall basic-auth@1.0.4
+253 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+254 info linkStuff basic-auth@1.0.4
+255 verbose linkBins basic-auth@1.0.4
+256 verbose linkMans basic-auth@1.0.4
+257 verbose rebuildBundles basic-auth@1.0.4
+258 info install basic-auth@1.0.4
+259 info postinstall basic-auth@1.0.4
+260 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/basic-auth-connect
+261 info build /vagrant_data/holidaybot/node_modules/basic-auth-connect
+262 info preinstall basic-auth-connect@1.0.0
+263 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+264 info linkStuff basic-auth-connect@1.0.0
+265 verbose linkBins basic-auth-connect@1.0.0
+266 verbose linkMans basic-auth-connect@1.0.0
+267 verbose rebuildBundles basic-auth-connect@1.0.0
+268 info install basic-auth-connect@1.0.0
+269 info postinstall basic-auth-connect@1.0.0
+270 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/batch
+271 info build /vagrant_data/holidaybot/node_modules/batch
+272 info preinstall batch@0.5.3
+273 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+274 info linkStuff batch@0.5.3
+275 verbose linkBins batch@0.5.3
+276 verbose linkMans batch@0.5.3
+277 verbose rebuildBundles batch@0.5.3
+278 info install batch@0.5.3
+279 info postinstall batch@0.5.3
+280 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/bcrypt-pbkdf
+281 info build /vagrant_data/holidaybot/node_modules/bcrypt-pbkdf
+282 info preinstall bcrypt-pbkdf@1.0.1
+283 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+284 info linkStuff bcrypt-pbkdf@1.0.1
+285 verbose linkBins bcrypt-pbkdf@1.0.1
+286 verbose linkMans bcrypt-pbkdf@1.0.1
+287 verbose rebuildBundles bcrypt-pbkdf@1.0.1
+288 info install bcrypt-pbkdf@1.0.1
+289 info postinstall bcrypt-pbkdf@1.0.1
+290 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/binary
+291 info build /vagrant_data/holidaybot/node_modules/binary
+292 info preinstall binary@0.3.0
+293 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+294 info linkStuff binary@0.3.0
+295 verbose linkBins binary@0.3.0
+296 verbose linkMans binary@0.3.0
+297 verbose rebuildBundles binary@0.3.0
+298 info install binary@0.3.0
+299 info postinstall binary@0.3.0
+300 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/bindings
+301 info build /vagrant_data/holidaybot/node_modules/bindings
+302 info preinstall bindings@1.2.1
+303 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+304 info linkStuff bindings@1.2.1
+305 verbose linkBins bindings@1.2.1
+306 verbose linkMans bindings@1.2.1
+307 verbose rebuildBundles bindings@1.2.1
+308 info install bindings@1.2.1
+309 info postinstall bindings@1.2.1
+310 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/block-stream
+311 info build /vagrant_data/holidaybot/node_modules/block-stream
+312 info preinstall block-stream@0.0.9
+313 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+314 info linkStuff block-stream@0.0.9
+315 verbose linkBins block-stream@0.0.9
+316 verbose linkMans block-stream@0.0.9
+317 verbose rebuildBundles block-stream@0.0.9
+318 info install block-stream@0.0.9
+319 info postinstall block-stream@0.0.9
+320 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/bluebird
+321 info build /vagrant_data/holidaybot/node_modules/bluebird
+322 info preinstall bluebird@3.5.0
+323 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+324 info linkStuff bluebird@3.5.0
+325 verbose linkBins bluebird@3.5.0
+326 verbose linkMans bluebird@3.5.0
+327 verbose rebuildBundles bluebird@3.5.0
+328 info install bluebird@3.5.0
+329 info postinstall bluebird@3.5.0
+330 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/body-parser
+331 info build /vagrant_data/holidaybot/node_modules/body-parser
+332 info preinstall body-parser@1.13.3
+333 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+334 info linkStuff body-parser@1.13.3
+335 verbose linkBins body-parser@1.13.3
+336 verbose linkMans body-parser@1.13.3
+337 verbose rebuildBundles body-parser@1.13.3
+338 verbose rebuildBundles [ 'ee-first',
+338 verbose rebuildBundles   'mime-db',
+338 verbose rebuildBundles   'mime-types',
+338 verbose rebuildBundles   'on-finished',
+338 verbose rebuildBundles   'qs',
+338 verbose rebuildBundles   'type-is' ]
+339 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/body-parser/node_modules/ee-first
+340 info build /vagrant_data/holidaybot/node_modules/body-parser/node_modules/ee-first
+341 info preinstall ee-first@1.1.1
+342 verbose linkStuff [ false,
+342 verbose linkStuff   false,
+342 verbose linkStuff   false,
+342 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/body-parser/node_modules' ]
+343 info linkStuff ee-first@1.1.1
+344 verbose linkBins ee-first@1.1.1
+345 verbose linkMans ee-first@1.1.1
+346 verbose rebuildBundles ee-first@1.1.1
+347 info install ee-first@1.1.1
+348 info postinstall ee-first@1.1.1
+349 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/body-parser/node_modules/mime-db
+350 info build /vagrant_data/holidaybot/node_modules/body-parser/node_modules/mime-db
+351 info preinstall mime-db@1.27.0
+352 verbose linkStuff [ false,
+352 verbose linkStuff   false,
+352 verbose linkStuff   false,
+352 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/body-parser/node_modules' ]
+353 info linkStuff mime-db@1.27.0
+354 verbose linkBins mime-db@1.27.0
+355 verbose linkMans mime-db@1.27.0
+356 verbose rebuildBundles mime-db@1.27.0
+357 info install mime-db@1.27.0
+358 info postinstall mime-db@1.27.0
+359 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/body-parser/node_modules/mime-types
+360 info build /vagrant_data/holidaybot/node_modules/body-parser/node_modules/mime-types
+361 info preinstall mime-types@2.1.15
+362 verbose linkStuff [ false,
+362 verbose linkStuff   false,
+362 verbose linkStuff   false,
+362 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/body-parser/node_modules' ]
+363 info linkStuff mime-types@2.1.15
+364 verbose linkBins mime-types@2.1.15
+365 verbose linkMans mime-types@2.1.15
+366 verbose rebuildBundles mime-types@2.1.15
+367 info install mime-types@2.1.15
+368 info postinstall mime-types@2.1.15
+369 info install body-parser@1.13.3
+370 info postinstall body-parser@1.13.3
+371 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/boom
+372 info build /vagrant_data/holidaybot/node_modules/boom
+373 info preinstall boom@2.10.1
+374 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+375 info linkStuff boom@2.10.1
+376 verbose linkBins boom@2.10.1
+377 verbose linkMans boom@2.10.1
+378 verbose rebuildBundles boom@2.10.1
+379 info install boom@2.10.1
+380 info postinstall boom@2.10.1
+381 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/brace-expansion
+382 info build /vagrant_data/holidaybot/node_modules/brace-expansion
+383 info preinstall brace-expansion@1.1.7
+384 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+385 info linkStuff brace-expansion@1.1.7
+386 verbose linkBins brace-expansion@1.1.7
+387 verbose linkMans brace-expansion@1.1.7
+388 verbose rebuildBundles brace-expansion@1.1.7
+389 info install brace-expansion@1.1.7
+390 info postinstall brace-expansion@1.1.7
+391 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/buffers
+392 info build /vagrant_data/holidaybot/node_modules/buffers
+393 info preinstall buffers@0.1.1
+394 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+395 info linkStuff buffers@0.1.1
+396 verbose linkBins buffers@0.1.1
+397 verbose linkMans buffers@0.1.1
+398 verbose rebuildBundles buffers@0.1.1
+399 info install buffers@0.1.1
+400 info postinstall buffers@0.1.1
+401 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/bytes
+402 info build /vagrant_data/holidaybot/node_modules/bytes
+403 info preinstall bytes@2.1.0
+404 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+405 info linkStuff bytes@2.1.0
+406 verbose linkBins bytes@2.1.0
+407 verbose linkMans bytes@2.1.0
+408 verbose rebuildBundles bytes@2.1.0
+409 info install bytes@2.1.0
+410 info postinstall bytes@2.1.0
+411 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/caseless
+412 info build /vagrant_data/holidaybot/node_modules/caseless
+413 info preinstall caseless@0.12.0
+414 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+415 info linkStuff caseless@0.12.0
+416 verbose linkBins caseless@0.12.0
+417 verbose linkMans caseless@0.12.0
+418 verbose rebuildBundles caseless@0.12.0
+419 info install caseless@0.12.0
+420 info postinstall caseless@0.12.0
+421 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cfb
+422 info build /vagrant_data/holidaybot/node_modules/cfb
+423 info preinstall cfb@0.11.1
+424 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+425 info linkStuff cfb@0.11.1
+426 verbose linkBins cfb@0.11.1
+427 verbose link bins [ { cfb: './bin/cfb.njs' },
+427 verbose link bins   '/vagrant_data/holidaybot/node_modules/.bin',
+427 verbose link bins   false ]
+428 verbose linkMans cfb@0.11.1
+429 verbose rebuildBundles cfb@0.11.1
+430 verbose rebuildBundles [ 'commander' ]
+431 info install cfb@0.11.1
+432 info postinstall cfb@0.11.1
+433 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/chainsaw
+434 info build /vagrant_data/holidaybot/node_modules/chainsaw
+435 info preinstall chainsaw@0.1.0
+436 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+437 info linkStuff chainsaw@0.1.0
+438 verbose linkBins chainsaw@0.1.0
+439 verbose linkMans chainsaw@0.1.0
+440 verbose rebuildBundles chainsaw@0.1.0
+441 info install chainsaw@0.1.0
+442 info postinstall chainsaw@0.1.0
+443 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/chalk
+444 info build /vagrant_data/holidaybot/node_modules/chalk
+445 info preinstall chalk@1.1.3
+446 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+447 info linkStuff chalk@1.1.3
+448 verbose linkBins chalk@1.1.3
+449 verbose linkMans chalk@1.1.3
+450 verbose rebuildBundles chalk@1.1.3
+451 info install chalk@1.1.3
+452 info postinstall chalk@1.1.3
+453 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cline
+454 info build /vagrant_data/holidaybot/node_modules/cline
+455 info preinstall cline@0.8.2
+456 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+457 info linkStuff cline@0.8.2
+458 verbose linkBins cline@0.8.2
+459 verbose linkMans cline@0.8.2
+460 verbose rebuildBundles cline@0.8.2
+461 info install cline@0.8.2
+462 info postinstall cline@0.8.2
+463 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/co
+464 info build /vagrant_data/holidaybot/node_modules/co
+465 info preinstall co@4.6.0
+466 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+467 info linkStuff co@4.6.0
+468 verbose linkBins co@4.6.0
+469 verbose linkMans co@4.6.0
+470 verbose rebuildBundles co@4.6.0
+471 info install co@4.6.0
+472 info postinstall co@4.6.0
+473 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/code-point-at
+474 info build /vagrant_data/holidaybot/node_modules/code-point-at
+475 info preinstall code-point-at@1.1.0
+476 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+477 info linkStuff code-point-at@1.1.0
+478 verbose linkBins code-point-at@1.1.0
+479 verbose linkMans code-point-at@1.1.0
+480 verbose rebuildBundles code-point-at@1.1.0
+481 info install code-point-at@1.1.0
+482 info postinstall code-point-at@1.1.0
+483 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/codepage
+484 info build /vagrant_data/holidaybot/node_modules/codepage
+485 info preinstall codepage@1.8.1
+486 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+487 info linkStuff codepage@1.8.1
+488 verbose linkBins codepage@1.8.1
+489 verbose link bins [ { codepage: './bin/codepage.njs' },
+489 verbose link bins   '/vagrant_data/holidaybot/node_modules/.bin',
+489 verbose link bins   false ]
+490 verbose linkMans codepage@1.8.1
+491 verbose rebuildBundles codepage@1.8.1
+492 verbose rebuildBundles [ 'commander', 'exit-on-epipe' ]
+493 info install codepage@1.8.1
+494 info postinstall codepage@1.8.1
+495 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/coffee-script
+496 info build /vagrant_data/holidaybot/node_modules/coffee-script
+497 info preinstall coffee-script@1.6.3
+498 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+499 info linkStuff coffee-script@1.6.3
+500 verbose linkBins coffee-script@1.6.3
+501 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+501 verbose link bins   '/vagrant_data/holidaybot/node_modules/.bin',
+501 verbose link bins   false ]
+502 verbose linkMans coffee-script@1.6.3
+503 verbose rebuildBundles coffee-script@1.6.3
+504 info install coffee-script@1.6.3
+505 info postinstall coffee-script@1.6.3
+506 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/colors
+507 info build /vagrant_data/holidaybot/node_modules/colors
+508 info preinstall colors@1.0.3
+509 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+510 info linkStuff colors@1.0.3
+511 verbose linkBins colors@1.0.3
+512 verbose linkMans colors@1.0.3
+513 verbose rebuildBundles colors@1.0.3
+514 info install colors@1.0.3
+515 info postinstall colors@1.0.3
+516 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/combined-stream
+517 info build /vagrant_data/holidaybot/node_modules/combined-stream
+518 info preinstall combined-stream@1.0.5
+519 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+520 info linkStuff combined-stream@1.0.5
+521 verbose linkBins combined-stream@1.0.5
+522 verbose linkMans combined-stream@1.0.5
+523 verbose rebuildBundles combined-stream@1.0.5
+524 info install combined-stream@1.0.5
+525 info postinstall combined-stream@1.0.5
+526 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/commander
+527 info build /vagrant_data/holidaybot/node_modules/commander
+528 info preinstall commander@2.6.0
+529 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+530 info linkStuff commander@2.6.0
+531 verbose linkBins commander@2.6.0
+532 verbose linkMans commander@2.6.0
+533 verbose rebuildBundles commander@2.6.0
+534 info install commander@2.6.0
+535 info postinstall commander@2.6.0
+536 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/compressible
+537 info build /vagrant_data/holidaybot/node_modules/compressible
+538 info preinstall compressible@2.0.10
+539 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+540 info linkStuff compressible@2.0.10
+541 verbose linkBins compressible@2.0.10
+542 verbose linkMans compressible@2.0.10
+543 verbose rebuildBundles compressible@2.0.10
+544 verbose rebuildBundles [ 'mime-db' ]
+545 info install compressible@2.0.10
+546 info postinstall compressible@2.0.10
+547 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/compression
+548 info build /vagrant_data/holidaybot/node_modules/compression
+549 info preinstall compression@1.5.2
+550 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+551 info linkStuff compression@1.5.2
+552 verbose linkBins compression@1.5.2
+553 verbose linkMans compression@1.5.2
+554 verbose rebuildBundles compression@1.5.2
+555 info install compression@1.5.2
+556 info postinstall compression@1.5.2
+557 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/concat-map
+558 info build /vagrant_data/holidaybot/node_modules/concat-map
+559 info preinstall concat-map@0.0.1
+560 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+561 info linkStuff concat-map@0.0.1
+562 verbose linkBins concat-map@0.0.1
+563 verbose linkMans concat-map@0.0.1
+564 verbose rebuildBundles concat-map@0.0.1
+565 info install concat-map@0.0.1
+566 info postinstall concat-map@0.0.1
+567 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/concat-stream
+568 info build /vagrant_data/holidaybot/node_modules/concat-stream
+569 info preinstall concat-stream@1.6.0
+570 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+571 info linkStuff concat-stream@1.6.0
+572 verbose linkBins concat-stream@1.6.0
+573 verbose linkMans concat-stream@1.6.0
+574 verbose rebuildBundles concat-stream@1.6.0
+575 verbose rebuildBundles [ 'isarray', 'readable-stream', 'safe-buffer', 'string_decoder' ]
+576 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/concat-stream/node_modules/isarray
+577 info build /vagrant_data/holidaybot/node_modules/concat-stream/node_modules/isarray
+578 info preinstall isarray@1.0.0
+579 verbose linkStuff [ false,
+579 verbose linkStuff   false,
+579 verbose linkStuff   false,
+579 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/concat-stream/node_modules' ]
+580 info linkStuff isarray@1.0.0
+581 verbose linkBins isarray@1.0.0
+582 verbose linkMans isarray@1.0.0
+583 verbose rebuildBundles isarray@1.0.0
+584 info install isarray@1.0.0
+585 info postinstall isarray@1.0.0
+586 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/concat-stream/node_modules/safe-buffer
+587 info build /vagrant_data/holidaybot/node_modules/concat-stream/node_modules/safe-buffer
+588 info preinstall safe-buffer@5.0.1
+589 verbose linkStuff [ false,
+589 verbose linkStuff   false,
+589 verbose linkStuff   false,
+589 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/concat-stream/node_modules' ]
+590 info linkStuff safe-buffer@5.0.1
+591 verbose linkBins safe-buffer@5.0.1
+592 verbose linkMans safe-buffer@5.0.1
+593 verbose rebuildBundles safe-buffer@5.0.1
+594 info install safe-buffer@5.0.1
+595 info postinstall safe-buffer@5.0.1
+596 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/concat-stream/node_modules/string_decoder
+597 info build /vagrant_data/holidaybot/node_modules/concat-stream/node_modules/string_decoder
+598 info preinstall string_decoder@1.0.2
+599 verbose linkStuff [ false,
+599 verbose linkStuff   false,
+599 verbose linkStuff   false,
+599 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/concat-stream/node_modules' ]
+600 info linkStuff string_decoder@1.0.2
+601 verbose linkBins string_decoder@1.0.2
+602 verbose linkMans string_decoder@1.0.2
+603 verbose rebuildBundles string_decoder@1.0.2
+604 info install string_decoder@1.0.2
+605 info postinstall string_decoder@1.0.2
+606 info install concat-stream@1.6.0
+607 info postinstall concat-stream@1.6.0
+608 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/connect
+609 info build /vagrant_data/holidaybot/node_modules/connect
+610 info preinstall connect@2.30.2
+611 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+612 info linkStuff connect@2.30.2
+613 verbose linkBins connect@2.30.2
+614 verbose linkMans connect@2.30.2
+615 verbose rebuildBundles connect@2.30.2
+616 verbose rebuildBundles [ 'mime-db', 'mime-types', 'qs', 'type-is' ]
+617 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/connect/node_modules/mime-db
+618 info build /vagrant_data/holidaybot/node_modules/connect/node_modules/mime-db
+619 info preinstall mime-db@1.27.0
+620 verbose linkStuff [ false,
+620 verbose linkStuff   false,
+620 verbose linkStuff   false,
+620 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/connect/node_modules' ]
+621 info linkStuff mime-db@1.27.0
+622 verbose linkBins mime-db@1.27.0
+623 verbose linkMans mime-db@1.27.0
+624 verbose rebuildBundles mime-db@1.27.0
+625 info install mime-db@1.27.0
+626 info postinstall mime-db@1.27.0
+627 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/connect/node_modules/mime-types
+628 info build /vagrant_data/holidaybot/node_modules/connect/node_modules/mime-types
+629 info preinstall mime-types@2.1.15
+630 verbose linkStuff [ false,
+630 verbose linkStuff   false,
+630 verbose linkStuff   false,
+630 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/connect/node_modules' ]
+631 info linkStuff mime-types@2.1.15
+632 verbose linkBins mime-types@2.1.15
+633 verbose linkMans mime-types@2.1.15
+634 verbose rebuildBundles mime-types@2.1.15
+635 info install mime-types@2.1.15
+636 info postinstall mime-types@2.1.15
+637 info install connect@2.30.2
+638 info postinstall connect@2.30.2
+639 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/connect-multiparty
+640 info build /vagrant_data/holidaybot/node_modules/connect-multiparty
+641 info preinstall connect-multiparty@1.2.5
+642 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+643 info linkStuff connect-multiparty@1.2.5
+644 verbose linkBins connect-multiparty@1.2.5
+645 verbose linkMans connect-multiparty@1.2.5
+646 verbose rebuildBundles connect-multiparty@1.2.5
+647 info install connect-multiparty@1.2.5
+648 info postinstall connect-multiparty@1.2.5
+649 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/connect-timeout
+650 info build /vagrant_data/holidaybot/node_modules/connect-timeout
+651 info preinstall connect-timeout@1.6.2
+652 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+653 info linkStuff connect-timeout@1.6.2
+654 verbose linkBins connect-timeout@1.6.2
+655 verbose linkMans connect-timeout@1.6.2
+656 verbose rebuildBundles connect-timeout@1.6.2
+657 info install connect-timeout@1.6.2
+658 info postinstall connect-timeout@1.6.2
+659 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/console-control-strings
+660 info build /vagrant_data/holidaybot/node_modules/console-control-strings
+661 info preinstall console-control-strings@1.1.0
+662 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+663 info linkStuff console-control-strings@1.1.0
+664 verbose linkBins console-control-strings@1.1.0
+665 verbose linkMans console-control-strings@1.1.0
+666 verbose rebuildBundles console-control-strings@1.1.0
+667 info install console-control-strings@1.1.0
+668 info postinstall console-control-strings@1.1.0
+669 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/content-disposition
+670 info build /vagrant_data/holidaybot/node_modules/content-disposition
+671 info preinstall content-disposition@0.5.0
+672 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+673 info linkStuff content-disposition@0.5.0
+674 verbose linkBins content-disposition@0.5.0
+675 verbose linkMans content-disposition@0.5.0
+676 verbose rebuildBundles content-disposition@0.5.0
+677 info install content-disposition@0.5.0
+678 info postinstall content-disposition@0.5.0
+679 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/content-type
+680 info build /vagrant_data/holidaybot/node_modules/content-type
+681 info preinstall content-type@1.0.2
+682 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+683 info linkStuff content-type@1.0.2
+684 verbose linkBins content-type@1.0.2
+685 verbose linkMans content-type@1.0.2
+686 verbose rebuildBundles content-type@1.0.2
+687 info install content-type@1.0.2
+688 info postinstall content-type@1.0.2
+689 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cookie
+690 info build /vagrant_data/holidaybot/node_modules/cookie
+691 info preinstall cookie@0.1.3
+692 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+693 info linkStuff cookie@0.1.3
+694 verbose linkBins cookie@0.1.3
+695 verbose linkMans cookie@0.1.3
+696 verbose rebuildBundles cookie@0.1.3
+697 info install cookie@0.1.3
+698 info postinstall cookie@0.1.3
+699 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cookie-parser
+700 info build /vagrant_data/holidaybot/node_modules/cookie-parser
+701 info preinstall cookie-parser@1.3.5
+702 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+703 info linkStuff cookie-parser@1.3.5
+704 verbose linkBins cookie-parser@1.3.5
+705 verbose linkMans cookie-parser@1.3.5
+706 verbose rebuildBundles cookie-parser@1.3.5
+707 info install cookie-parser@1.3.5
+708 info postinstall cookie-parser@1.3.5
+709 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cookie-signature
+710 info build /vagrant_data/holidaybot/node_modules/cookie-signature
+711 info preinstall cookie-signature@1.0.6
+712 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+713 info linkStuff cookie-signature@1.0.6
+714 verbose linkBins cookie-signature@1.0.6
+715 verbose linkMans cookie-signature@1.0.6
+716 verbose rebuildBundles cookie-signature@1.0.6
+717 info install cookie-signature@1.0.6
+718 info postinstall cookie-signature@1.0.6
+719 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/core-util-is
+720 info build /vagrant_data/holidaybot/node_modules/core-util-is
+721 info preinstall core-util-is@1.0.2
+722 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+723 info linkStuff core-util-is@1.0.2
+724 verbose linkBins core-util-is@1.0.2
+725 verbose linkMans core-util-is@1.0.2
+726 verbose rebuildBundles core-util-is@1.0.2
+727 info install core-util-is@1.0.2
+728 info postinstall core-util-is@1.0.2
+729 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/crc
+730 info build /vagrant_data/holidaybot/node_modules/crc
+731 info preinstall crc@3.3.0
+732 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+733 info linkStuff crc@3.3.0
+734 verbose linkBins crc@3.3.0
+735 verbose linkMans crc@3.3.0
+736 verbose rebuildBundles crc@3.3.0
+737 info install crc@3.3.0
+738 info postinstall crc@3.3.0
+739 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/crc-32
+740 info build /vagrant_data/holidaybot/node_modules/crc-32
+741 info preinstall crc-32@1.0.2
+742 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+743 info linkStuff crc-32@1.0.2
+744 verbose linkBins crc-32@1.0.2
+745 verbose link bins [ { crc32: './bin/crc32.njs' },
+745 verbose link bins   '/vagrant_data/holidaybot/node_modules/.bin',
+745 verbose link bins   false ]
+746 verbose linkMans crc-32@1.0.2
+747 verbose rebuildBundles crc-32@1.0.2
+748 verbose rebuildBundles [ 'exit-on-epipe' ]
+749 info install crc-32@1.0.2
+750 info postinstall crc-32@1.0.2
+751 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cryptiles
+752 info build /vagrant_data/holidaybot/node_modules/cryptiles
+753 info preinstall cryptiles@2.0.5
+754 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+755 info linkStuff cryptiles@2.0.5
+756 verbose linkBins cryptiles@2.0.5
+757 verbose linkMans cryptiles@2.0.5
+758 verbose rebuildBundles cryptiles@2.0.5
+759 info install cryptiles@2.0.5
+760 info postinstall cryptiles@2.0.5
+761 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/csrf
+762 info build /vagrant_data/holidaybot/node_modules/csrf
+763 info preinstall csrf@3.0.6
+764 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+765 info linkStuff csrf@3.0.6
+766 verbose linkBins csrf@3.0.6
+767 verbose linkMans csrf@3.0.6
+768 verbose rebuildBundles csrf@3.0.6
+769 info install csrf@3.0.6
+770 info postinstall csrf@3.0.6
+771 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/csurf
+772 info build /vagrant_data/holidaybot/node_modules/csurf
+773 info preinstall csurf@1.8.3
+774 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+775 info linkStuff csurf@1.8.3
+776 verbose linkBins csurf@1.8.3
+777 verbose linkMans csurf@1.8.3
+778 verbose rebuildBundles csurf@1.8.3
+779 info install csurf@1.8.3
+780 info postinstall csurf@1.8.3
+781 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/cycle
+782 info build /vagrant_data/holidaybot/node_modules/cycle
+783 info preinstall cycle@1.0.3
+784 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+785 info linkStuff cycle@1.0.3
+786 verbose linkBins cycle@1.0.3
+787 verbose linkMans cycle@1.0.3
+788 verbose rebuildBundles cycle@1.0.3
+789 info install cycle@1.0.3
+790 info postinstall cycle@1.0.3
+791 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/dashdash
+792 info build /vagrant_data/holidaybot/node_modules/dashdash
+793 info preinstall dashdash@1.14.1
+794 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+795 info linkStuff dashdash@1.14.1
+796 verbose linkBins dashdash@1.14.1
+797 verbose linkMans dashdash@1.14.1
+798 verbose rebuildBundles dashdash@1.14.1
+799 verbose rebuildBundles [ 'assert-plus' ]
+800 info install dashdash@1.14.1
+801 info postinstall dashdash@1.14.1
+802 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/debug
+803 info build /vagrant_data/holidaybot/node_modules/debug
+804 info preinstall debug@2.2.0
+805 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+806 info linkStuff debug@2.2.0
+807 verbose linkBins debug@2.2.0
+808 verbose linkMans debug@2.2.0
+809 verbose rebuildBundles debug@2.2.0
+810 info install debug@2.2.0
+811 info postinstall debug@2.2.0
+812 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/deep-extend
+813 info build /vagrant_data/holidaybot/node_modules/deep-extend
+814 info preinstall deep-extend@0.4.2
+815 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+816 info linkStuff deep-extend@0.4.2
+817 verbose linkBins deep-extend@0.4.2
+818 verbose linkMans deep-extend@0.4.2
+819 verbose rebuildBundles deep-extend@0.4.2
+820 info install deep-extend@0.4.2
+821 info postinstall deep-extend@0.4.2
+822 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/delayed-stream
+823 info build /vagrant_data/holidaybot/node_modules/delayed-stream
+824 info preinstall delayed-stream@1.0.0
+825 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+826 info linkStuff delayed-stream@1.0.0
+827 verbose linkBins delayed-stream@1.0.0
+828 verbose linkMans delayed-stream@1.0.0
+829 verbose rebuildBundles delayed-stream@1.0.0
+830 info install delayed-stream@1.0.0
+831 info postinstall delayed-stream@1.0.0
+832 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/delegates
+833 info build /vagrant_data/holidaybot/node_modules/delegates
+834 info preinstall delegates@1.0.0
+835 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+836 info linkStuff delegates@1.0.0
+837 verbose linkBins delegates@1.0.0
+838 verbose linkMans delegates@1.0.0
+839 verbose rebuildBundles delegates@1.0.0
+840 info install delegates@1.0.0
+841 info postinstall delegates@1.0.0
+842 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/depd
+843 info build /vagrant_data/holidaybot/node_modules/depd
+844 info preinstall depd@1.0.1
+845 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+846 info linkStuff depd@1.0.1
+847 verbose linkBins depd@1.0.1
+848 verbose linkMans depd@1.0.1
+849 verbose rebuildBundles depd@1.0.1
+850 info install depd@1.0.1
+851 info postinstall depd@1.0.1
+852 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/destroy
+853 info build /vagrant_data/holidaybot/node_modules/destroy
+854 info preinstall destroy@1.0.4
+855 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+856 info linkStuff destroy@1.0.4
+857 verbose linkBins destroy@1.0.4
+858 verbose linkMans destroy@1.0.4
+859 verbose rebuildBundles destroy@1.0.4
+860 info install destroy@1.0.4
+861 info postinstall destroy@1.0.4
+862 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ecc-jsbn
+863 info build /vagrant_data/holidaybot/node_modules/ecc-jsbn
+864 info preinstall ecc-jsbn@0.1.1
+865 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+866 info linkStuff ecc-jsbn@0.1.1
+867 verbose linkBins ecc-jsbn@0.1.1
+868 verbose linkMans ecc-jsbn@0.1.1
+869 verbose rebuildBundles ecc-jsbn@0.1.1
+870 info install ecc-jsbn@0.1.1
+871 info postinstall ecc-jsbn@0.1.1
+872 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ee-first
+873 info build /vagrant_data/holidaybot/node_modules/ee-first
+874 info preinstall ee-first@1.1.0
+875 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+876 info linkStuff ee-first@1.1.0
+877 verbose linkBins ee-first@1.1.0
+878 verbose linkMans ee-first@1.1.0
+879 verbose rebuildBundles ee-first@1.1.0
+880 info install ee-first@1.1.0
+881 info postinstall ee-first@1.1.0
+882 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/errorhandler
+883 info build /vagrant_data/holidaybot/node_modules/errorhandler
+884 info preinstall errorhandler@1.4.3
+885 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+886 info linkStuff errorhandler@1.4.3
+887 verbose linkBins errorhandler@1.4.3
+888 verbose linkMans errorhandler@1.4.3
+889 verbose rebuildBundles errorhandler@1.4.3
+890 verbose rebuildBundles [ 'accepts', 'escape-html', 'mime-db', 'mime-types', 'negotiator' ]
+891 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/errorhandler/node_modules/mime-db
+892 info build /vagrant_data/holidaybot/node_modules/errorhandler/node_modules/mime-db
+893 info preinstall mime-db@1.27.0
+894 verbose linkStuff [ false,
+894 verbose linkStuff   false,
+894 verbose linkStuff   false,
+894 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/errorhandler/node_modules' ]
+895 info linkStuff mime-db@1.27.0
+896 verbose linkBins mime-db@1.27.0
+897 verbose linkMans mime-db@1.27.0
+898 verbose rebuildBundles mime-db@1.27.0
+899 info install mime-db@1.27.0
+900 info postinstall mime-db@1.27.0
+901 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/errorhandler/node_modules/mime-types
+902 info build /vagrant_data/holidaybot/node_modules/errorhandler/node_modules/mime-types
+903 info preinstall mime-types@2.1.15
+904 verbose linkStuff [ false,
+904 verbose linkStuff   false,
+904 verbose linkStuff   false,
+904 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/errorhandler/node_modules' ]
+905 info linkStuff mime-types@2.1.15
+906 verbose linkBins mime-types@2.1.15
+907 verbose linkMans mime-types@2.1.15
+908 verbose rebuildBundles mime-types@2.1.15
+909 info install mime-types@2.1.15
+910 info postinstall mime-types@2.1.15
+911 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/errorhandler/node_modules/negotiator
+912 info build /vagrant_data/holidaybot/node_modules/errorhandler/node_modules/negotiator
+913 info preinstall negotiator@0.6.1
+914 verbose linkStuff [ false,
+914 verbose linkStuff   false,
+914 verbose linkStuff   false,
+914 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/errorhandler/node_modules' ]
+915 info linkStuff negotiator@0.6.1
+916 verbose linkBins negotiator@0.6.1
+917 verbose linkMans negotiator@0.6.1
+918 verbose rebuildBundles negotiator@0.6.1
+919 info install negotiator@0.6.1
+920 info postinstall negotiator@0.6.1
+921 info install errorhandler@1.4.3
+922 info postinstall errorhandler@1.4.3
+923 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/escape-html
+924 info build /vagrant_data/holidaybot/node_modules/escape-html
+925 info preinstall escape-html@1.0.2
+926 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+927 info linkStuff escape-html@1.0.2
+928 verbose linkBins escape-html@1.0.2
+929 verbose linkMans escape-html@1.0.2
+930 verbose rebuildBundles escape-html@1.0.2
+931 info install escape-html@1.0.2
+932 info postinstall escape-html@1.0.2
+933 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/escape-string-regexp
+934 info build /vagrant_data/holidaybot/node_modules/escape-string-regexp
+935 info preinstall escape-string-regexp@1.0.5
+936 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+937 info linkStuff escape-string-regexp@1.0.5
+938 verbose linkBins escape-string-regexp@1.0.5
+939 verbose linkMans escape-string-regexp@1.0.5
+940 verbose rebuildBundles escape-string-regexp@1.0.5
+941 info install escape-string-regexp@1.0.5
+942 info postinstall escape-string-regexp@1.0.5
+943 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/etag
+944 info build /vagrant_data/holidaybot/node_modules/etag
+945 info preinstall etag@1.7.0
+946 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+947 info linkStuff etag@1.7.0
+948 verbose linkBins etag@1.7.0
+949 verbose linkMans etag@1.7.0
+950 verbose rebuildBundles etag@1.7.0
+951 info install etag@1.7.0
+952 info postinstall etag@1.7.0
+953 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/eventemitter3
+954 info build /vagrant_data/holidaybot/node_modules/eventemitter3
+955 info preinstall eventemitter3@1.2.0
+956 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+957 info linkStuff eventemitter3@1.2.0
+958 verbose linkBins eventemitter3@1.2.0
+959 verbose linkMans eventemitter3@1.2.0
+960 verbose rebuildBundles eventemitter3@1.2.0
+961 info install eventemitter3@1.2.0
+962 info postinstall eventemitter3@1.2.0
+963 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/exit-on-epipe
+964 info build /vagrant_data/holidaybot/node_modules/exit-on-epipe
+965 info preinstall exit-on-epipe@1.0.0
+966 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+967 info linkStuff exit-on-epipe@1.0.0
+968 verbose linkBins exit-on-epipe@1.0.0
+969 verbose linkMans exit-on-epipe@1.0.0
+970 verbose rebuildBundles exit-on-epipe@1.0.0
+971 info install exit-on-epipe@1.0.0
+972 info postinstall exit-on-epipe@1.0.0
+973 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/express
+974 info build /vagrant_data/holidaybot/node_modules/express
+975 info preinstall express@3.21.2
+976 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+977 info linkStuff express@3.21.2
+978 verbose linkBins express@3.21.2
+979 verbose link bins [ { express: './bin/express' },
+979 verbose link bins   '/vagrant_data/holidaybot/node_modules/.bin',
+979 verbose link bins   false ]
+980 verbose linkMans express@3.21.2
+981 verbose rebuildBundles express@3.21.2
+982 info install express@3.21.2
+983 info postinstall express@3.21.2
+984 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/express-session
+985 info build /vagrant_data/holidaybot/node_modules/express-session
+986 info preinstall express-session@1.11.3
+987 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+988 info linkStuff express-session@1.11.3
+989 verbose linkBins express-session@1.11.3
+990 verbose linkMans express-session@1.11.3
+991 verbose rebuildBundles express-session@1.11.3
+992 verbose rebuildBundles [ 'uid-safe' ]
+993 info install express-session@1.11.3
+994 info postinstall express-session@1.11.3
+995 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/extend
+996 info build /vagrant_data/holidaybot/node_modules/extend
+997 info preinstall extend@3.0.1
+998 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+999 info linkStuff extend@3.0.1
+1000 verbose linkBins extend@3.0.1
+1001 verbose linkMans extend@3.0.1
+1002 verbose rebuildBundles extend@3.0.1
+1003 info install extend@3.0.1
+1004 info postinstall extend@3.0.1
+1005 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/extsprintf
+1006 info build /vagrant_data/holidaybot/node_modules/extsprintf
+1007 info preinstall extsprintf@1.0.2
+1008 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1009 info linkStuff extsprintf@1.0.2
+1010 verbose linkBins extsprintf@1.0.2
+1011 verbose linkMans extsprintf@1.0.2
+1012 verbose rebuildBundles extsprintf@1.0.2
+1013 info install extsprintf@1.0.2
+1014 info postinstall extsprintf@1.0.2
+1015 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/eyes
+1016 info build /vagrant_data/holidaybot/node_modules/eyes
+1017 info preinstall eyes@0.1.8
+1018 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1019 info linkStuff eyes@0.1.8
+1020 verbose linkBins eyes@0.1.8
+1021 verbose linkMans eyes@0.1.8
+1022 verbose rebuildBundles eyes@0.1.8
+1023 info install eyes@0.1.8
+1024 info postinstall eyes@0.1.8
+1025 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/finalhandler
+1026 info build /vagrant_data/holidaybot/node_modules/finalhandler
+1027 info preinstall finalhandler@0.4.0
+1028 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1029 info linkStuff finalhandler@0.4.0
+1030 verbose linkBins finalhandler@0.4.0
+1031 verbose linkMans finalhandler@0.4.0
+1032 verbose rebuildBundles finalhandler@0.4.0
+1033 verbose rebuildBundles [ 'ee-first', 'on-finished' ]
+1034 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/finalhandler/node_modules/ee-first
+1035 info build /vagrant_data/holidaybot/node_modules/finalhandler/node_modules/ee-first
+1036 info preinstall ee-first@1.1.1
+1037 verbose linkStuff [ false,
+1037 verbose linkStuff   false,
+1037 verbose linkStuff   false,
+1037 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/finalhandler/node_modules' ]
+1038 info linkStuff ee-first@1.1.1
+1039 verbose linkBins ee-first@1.1.1
+1040 verbose linkMans ee-first@1.1.1
+1041 verbose rebuildBundles ee-first@1.1.1
+1042 info install ee-first@1.1.1
+1043 info postinstall ee-first@1.1.1
+1044 info install finalhandler@0.4.0
+1045 info postinstall finalhandler@0.4.0
+1046 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/forever-agent
+1047 info build /vagrant_data/holidaybot/node_modules/forever-agent
+1048 info preinstall forever-agent@0.6.1
+1049 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1050 info linkStuff forever-agent@0.6.1
+1051 verbose linkBins forever-agent@0.6.1
+1052 verbose linkMans forever-agent@0.6.1
+1053 verbose rebuildBundles forever-agent@0.6.1
+1054 info install forever-agent@0.6.1
+1055 info postinstall forever-agent@0.6.1
+1056 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/form-data
+1057 info build /vagrant_data/holidaybot/node_modules/form-data
+1058 info preinstall form-data@2.1.4
+1059 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1060 info linkStuff form-data@2.1.4
+1061 verbose linkBins form-data@2.1.4
+1062 verbose linkMans form-data@2.1.4
+1063 verbose rebuildBundles form-data@2.1.4
+1064 verbose rebuildBundles [ 'mime-db', 'mime-types' ]
+1065 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/form-data/node_modules/mime-db
+1066 info build /vagrant_data/holidaybot/node_modules/form-data/node_modules/mime-db
+1067 info preinstall mime-db@1.27.0
+1068 verbose linkStuff [ false,
+1068 verbose linkStuff   false,
+1068 verbose linkStuff   false,
+1068 verbose linkStuff   '/vagrant_data/holidaybot/node_modules/form-data/node_modules' ]
+1069 info linkStuff mime-db@1.27.0
+1070 verbose linkBins mime-db@1.27.0
+1071 verbose linkMans mime-db@1.27.0
+1072 verbose rebuildBundles mime-db@1.27.0
+1073 info install mime-db@1.27.0
+1074 info postinstall mime-db@1.27.0
+1075 info install form-data@2.1.4
+1076 info postinstall form-data@2.1.4
+1077 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/forwarded
+1078 info build /vagrant_data/holidaybot/node_modules/forwarded
+1079 info preinstall forwarded@0.1.0
+1080 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1081 info linkStuff forwarded@0.1.0
+1082 verbose linkBins forwarded@0.1.0
+1083 verbose linkMans forwarded@0.1.0
+1084 verbose rebuildBundles forwarded@0.1.0
+1085 info install forwarded@0.1.0
+1086 info postinstall forwarded@0.1.0
+1087 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/frac
+1088 info build /vagrant_data/holidaybot/node_modules/frac
+1089 info preinstall frac@1.0.6
+1090 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1091 info linkStuff frac@1.0.6
+1092 verbose linkBins frac@1.0.6
+1093 verbose linkMans frac@1.0.6
+1094 verbose rebuildBundles frac@1.0.6
+1095 info install frac@1.0.6
+1096 info postinstall frac@1.0.6
+1097 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/fresh
+1098 info build /vagrant_data/holidaybot/node_modules/fresh
+1099 info preinstall fresh@0.3.0
+1100 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1101 info linkStuff fresh@0.3.0
+1102 verbose linkBins fresh@0.3.0
+1103 verbose linkMans fresh@0.3.0
+1104 verbose rebuildBundles fresh@0.3.0
+1105 info install fresh@0.3.0
+1106 info postinstall fresh@0.3.0
+1107 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/fs.realpath
+1108 info build /vagrant_data/holidaybot/node_modules/fs.realpath
+1109 info preinstall fs.realpath@1.0.0
+1110 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1111 info linkStuff fs.realpath@1.0.0
+1112 verbose linkBins fs.realpath@1.0.0
+1113 verbose linkMans fs.realpath@1.0.0
+1114 verbose rebuildBundles fs.realpath@1.0.0
+1115 info install fs.realpath@1.0.0
+1116 info postinstall fs.realpath@1.0.0
+1117 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/fstream
+1118 info build /vagrant_data/holidaybot/node_modules/fstream
+1119 info preinstall fstream@1.0.11
+1120 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1121 info linkStuff fstream@1.0.11
+1122 verbose linkBins fstream@1.0.11
+1123 verbose linkMans fstream@1.0.11
+1124 verbose rebuildBundles fstream@1.0.11
+1125 info install fstream@1.0.11
+1126 info postinstall fstream@1.0.11
+1127 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/fstream-ignore
+1128 info build /vagrant_data/holidaybot/node_modules/fstream-ignore
+1129 info preinstall fstream-ignore@1.0.5
+1130 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1131 info linkStuff fstream-ignore@1.0.5
+1132 verbose linkBins fstream-ignore@1.0.5
+1133 verbose linkMans fstream-ignore@1.0.5
+1134 verbose rebuildBundles fstream-ignore@1.0.5
+1135 info install fstream-ignore@1.0.5
+1136 info postinstall fstream-ignore@1.0.5
+1137 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/gauge
+1138 info build /vagrant_data/holidaybot/node_modules/gauge
+1139 info preinstall gauge@2.7.4
+1140 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1141 info linkStuff gauge@2.7.4
+1142 verbose linkBins gauge@2.7.4
+1143 verbose linkMans gauge@2.7.4
+1144 verbose rebuildBundles gauge@2.7.4
+1145 info install gauge@2.7.4
+1146 info postinstall gauge@2.7.4
+1147 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/getpass
+1148 info build /vagrant_data/holidaybot/node_modules/getpass
+1149 info preinstall getpass@0.1.7
+1150 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1151 info linkStuff getpass@0.1.7
+1152 verbose linkBins getpass@0.1.7
+1153 verbose linkMans getpass@0.1.7
+1154 verbose rebuildBundles getpass@0.1.7
+1155 verbose rebuildBundles [ 'assert-plus' ]
+1156 info install getpass@0.1.7
+1157 info postinstall getpass@0.1.7
+1158 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/glob
+1159 info build /vagrant_data/holidaybot/node_modules/glob
+1160 info preinstall glob@7.1.2
+1161 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1162 info linkStuff glob@7.1.2
+1163 verbose linkBins glob@7.1.2
+1164 verbose linkMans glob@7.1.2
+1165 verbose rebuildBundles glob@7.1.2
+1166 info install glob@7.1.2
+1167 info postinstall glob@7.1.2
+1168 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/graceful-fs
+1169 info build /vagrant_data/holidaybot/node_modules/graceful-fs
+1170 info preinstall graceful-fs@4.1.11
+1171 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1172 info linkStuff graceful-fs@4.1.11
+1173 verbose linkBins graceful-fs@4.1.11
+1174 verbose linkMans graceful-fs@4.1.11
+1175 verbose rebuildBundles graceful-fs@4.1.11
+1176 info install graceful-fs@4.1.11
+1177 info postinstall graceful-fs@4.1.11
+1178 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/graceful-readlink
+1179 info build /vagrant_data/holidaybot/node_modules/graceful-readlink
+1180 info preinstall graceful-readlink@1.0.1
+1181 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1182 info linkStuff graceful-readlink@1.0.1
+1183 verbose linkBins graceful-readlink@1.0.1
+1184 verbose linkMans graceful-readlink@1.0.1
+1185 verbose rebuildBundles graceful-readlink@1.0.1
+1186 info install graceful-readlink@1.0.1
+1187 info postinstall graceful-readlink@1.0.1
+1188 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/har-schema
+1189 info build /vagrant_data/holidaybot/node_modules/har-schema
+1190 info preinstall har-schema@1.0.5
+1191 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1192 info linkStuff har-schema@1.0.5
+1193 verbose linkBins har-schema@1.0.5
+1194 verbose linkMans har-schema@1.0.5
+1195 verbose rebuildBundles har-schema@1.0.5
+1196 info install har-schema@1.0.5
+1197 info postinstall har-schema@1.0.5
+1198 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/har-validator
+1199 info build /vagrant_data/holidaybot/node_modules/har-validator
+1200 info preinstall har-validator@4.2.1
+1201 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1202 info linkStuff har-validator@4.2.1
+1203 verbose linkBins har-validator@4.2.1
+1204 verbose linkMans har-validator@4.2.1
+1205 verbose rebuildBundles har-validator@4.2.1
+1206 info install har-validator@4.2.1
+1207 info postinstall har-validator@4.2.1
+1208 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/has-ansi
+1209 info build /vagrant_data/holidaybot/node_modules/has-ansi
+1210 info preinstall has-ansi@2.0.0
+1211 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1212 info linkStuff has-ansi@2.0.0
+1213 verbose linkBins has-ansi@2.0.0
+1214 verbose linkMans has-ansi@2.0.0
+1215 verbose rebuildBundles has-ansi@2.0.0
+1216 info install has-ansi@2.0.0
+1217 info postinstall has-ansi@2.0.0
+1218 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/has-unicode
+1219 info build /vagrant_data/holidaybot/node_modules/has-unicode
+1220 info preinstall has-unicode@2.0.1
+1221 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1222 info linkStuff has-unicode@2.0.1
+1223 verbose linkBins has-unicode@2.0.1
+1224 verbose linkMans has-unicode@2.0.1
+1225 verbose rebuildBundles has-unicode@2.0.1
+1226 info install has-unicode@2.0.1
+1227 info postinstall has-unicode@2.0.1
+1228 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/hawk
+1229 info build /vagrant_data/holidaybot/node_modules/hawk
+1230 info preinstall hawk@3.1.3
+1231 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1232 info linkStuff hawk@3.1.3
+1233 verbose linkBins hawk@3.1.3
+1234 verbose linkMans hawk@3.1.3
+1235 verbose rebuildBundles hawk@3.1.3
+1236 info install hawk@3.1.3
+1237 info postinstall hawk@3.1.3
+1238 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/hoek
+1239 info build /vagrant_data/holidaybot/node_modules/hoek
+1240 info preinstall hoek@2.16.3
+1241 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1242 info linkStuff hoek@2.16.3
+1243 verbose linkBins hoek@2.16.3
+1244 verbose linkMans hoek@2.16.3
+1245 verbose rebuildBundles hoek@2.16.3
+1246 info install hoek@2.16.3
+1247 info postinstall hoek@2.16.3
+1248 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/http-errors
+1249 info build /vagrant_data/holidaybot/node_modules/http-errors
+1250 info preinstall http-errors@1.3.1
+1251 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1252 info linkStuff http-errors@1.3.1
+1253 verbose linkBins http-errors@1.3.1
+1254 verbose linkMans http-errors@1.3.1
+1255 verbose rebuildBundles http-errors@1.3.1
+1256 info install http-errors@1.3.1
+1257 info postinstall http-errors@1.3.1
+1258 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/http-signature
+1259 info build /vagrant_data/holidaybot/node_modules/http-signature
+1260 info preinstall http-signature@1.1.1
+1261 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1262 info linkStuff http-signature@1.1.1
+1263 verbose linkBins http-signature@1.1.1
+1264 verbose linkMans http-signature@1.1.1
+1265 verbose rebuildBundles http-signature@1.1.1
+1266 info install http-signature@1.1.1
+1267 info postinstall http-signature@1.1.1
+1268 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/https-proxy-agent
+1269 info build /vagrant_data/holidaybot/node_modules/https-proxy-agent
+1270 info preinstall https-proxy-agent@1.0.0
+1271 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1272 info linkStuff https-proxy-agent@1.0.0
+1273 verbose linkBins https-proxy-agent@1.0.0
+1274 verbose linkMans https-proxy-agent@1.0.0
+1275 verbose rebuildBundles https-proxy-agent@1.0.0
+1276 info install https-proxy-agent@1.0.0
+1277 info postinstall https-proxy-agent@1.0.0
+1278 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/iconv-lite
+1279 info build /vagrant_data/holidaybot/node_modules/iconv-lite
+1280 info preinstall iconv-lite@0.4.11
+1281 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1282 info linkStuff iconv-lite@0.4.11
+1283 verbose linkBins iconv-lite@0.4.11
+1284 verbose linkMans iconv-lite@0.4.11
+1285 verbose rebuildBundles iconv-lite@0.4.11
+1286 info install iconv-lite@0.4.11
+1287 info postinstall iconv-lite@0.4.11
+1288 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/inflight
+1289 info build /vagrant_data/holidaybot/node_modules/inflight
+1290 info preinstall inflight@1.0.6
+1291 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1292 info linkStuff inflight@1.0.6
+1293 verbose linkBins inflight@1.0.6
+1294 verbose linkMans inflight@1.0.6
+1295 verbose rebuildBundles inflight@1.0.6
+1296 info install inflight@1.0.6
+1297 info postinstall inflight@1.0.6
+1298 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/inherits
+1299 info build /vagrant_data/holidaybot/node_modules/inherits
+1300 info preinstall inherits@2.0.3
+1301 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1302 info linkStuff inherits@2.0.3
+1303 verbose linkBins inherits@2.0.3
+1304 verbose linkMans inherits@2.0.3
+1305 verbose rebuildBundles inherits@2.0.3
+1306 info install inherits@2.0.3
+1307 info postinstall inherits@2.0.3
+1308 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ini
+1309 info build /vagrant_data/holidaybot/node_modules/ini
+1310 info preinstall ini@1.3.4
+1311 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1312 info linkStuff ini@1.3.4
+1313 verbose linkBins ini@1.3.4
+1314 verbose linkMans ini@1.3.4
+1315 verbose rebuildBundles ini@1.3.4
+1316 info install ini@1.3.4
+1317 info postinstall ini@1.3.4
+1318 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/ipaddr.js
+1319 info build /vagrant_data/holidaybot/node_modules/ipaddr.js
+1320 info preinstall ipaddr.js@1.0.5
+1321 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1322 info linkStuff ipaddr.js@1.0.5
+1323 verbose linkBins ipaddr.js@1.0.5
+1324 verbose linkMans ipaddr.js@1.0.5
+1325 verbose rebuildBundles ipaddr.js@1.0.5
+1326 info install ipaddr.js@1.0.5
+1327 info postinstall ipaddr.js@1.0.5
+1328 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/is-fullwidth-code-point
+1329 info build /vagrant_data/holidaybot/node_modules/is-fullwidth-code-point
+1330 info preinstall is-fullwidth-code-point@1.0.0
+1331 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1332 info linkStuff is-fullwidth-code-point@1.0.0
+1333 verbose linkBins is-fullwidth-code-point@1.0.0
+1334 verbose linkMans is-fullwidth-code-point@1.0.0
+1335 verbose rebuildBundles is-fullwidth-code-point@1.0.0
+1336 info install is-fullwidth-code-point@1.0.0
+1337 info postinstall is-fullwidth-code-point@1.0.0
+1338 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/is-typedarray
+1339 info build /vagrant_data/holidaybot/node_modules/is-typedarray
+1340 info preinstall is-typedarray@1.0.0
+1341 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1342 info linkStuff is-typedarray@1.0.0
+1343 verbose linkBins is-typedarray@1.0.0
+1344 verbose linkMans is-typedarray@1.0.0
+1345 verbose rebuildBundles is-typedarray@1.0.0
+1346 info install is-typedarray@1.0.0
+1347 info postinstall is-typedarray@1.0.0
+1348 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/isarray
+1349 info build /vagrant_data/holidaybot/node_modules/isarray
+1350 info preinstall isarray@0.0.1
+1351 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1352 info linkStuff isarray@0.0.1
+1353 verbose linkBins isarray@0.0.1
+1354 verbose linkMans isarray@0.0.1
+1355 verbose rebuildBundles isarray@0.0.1
+1356 info install isarray@0.0.1
+1357 info postinstall isarray@0.0.1
+1358 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/isstream
+1359 info build /vagrant_data/holidaybot/node_modules/isstream
+1360 info preinstall isstream@0.1.2
+1361 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1362 info linkStuff isstream@0.1.2
+1363 verbose linkBins isstream@0.1.2
+1364 verbose linkMans isstream@0.1.2
+1365 verbose rebuildBundles isstream@0.1.2
+1366 info install isstream@0.1.2
+1367 info postinstall isstream@0.1.2
+1368 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/jsbn
+1369 info build /vagrant_data/holidaybot/node_modules/jsbn
+1370 info preinstall jsbn@0.1.1
+1371 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1372 info linkStuff jsbn@0.1.1
+1373 verbose linkBins jsbn@0.1.1
+1374 verbose linkMans jsbn@0.1.1
+1375 verbose rebuildBundles jsbn@0.1.1
+1376 info install jsbn@0.1.1
+1377 info postinstall jsbn@0.1.1
+1378 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/json-schema
+1379 info build /vagrant_data/holidaybot/node_modules/json-schema
+1380 info preinstall json-schema@0.2.3
+1381 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1382 info linkStuff json-schema@0.2.3
+1383 verbose linkBins json-schema@0.2.3
+1384 verbose linkMans json-schema@0.2.3
+1385 verbose rebuildBundles json-schema@0.2.3
+1386 info install json-schema@0.2.3
+1387 info postinstall json-schema@0.2.3
+1388 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/json-stable-stringify
+1389 info build /vagrant_data/holidaybot/node_modules/json-stable-stringify
+1390 info preinstall json-stable-stringify@1.0.1
+1391 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1392 info linkStuff json-stable-stringify@1.0.1
+1393 verbose linkBins json-stable-stringify@1.0.1
+1394 verbose linkMans json-stable-stringify@1.0.1
+1395 verbose rebuildBundles json-stable-stringify@1.0.1
+1396 info install json-stable-stringify@1.0.1
+1397 info postinstall json-stable-stringify@1.0.1
+1398 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/json-stringify-safe
+1399 info build /vagrant_data/holidaybot/node_modules/json-stringify-safe
+1400 info preinstall json-stringify-safe@5.0.1
+1401 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1402 info linkStuff json-stringify-safe@5.0.1
+1403 verbose linkBins json-stringify-safe@5.0.1
+1404 verbose linkMans json-stringify-safe@5.0.1
+1405 verbose rebuildBundles json-stringify-safe@5.0.1
+1406 info install json-stringify-safe@5.0.1
+1407 info postinstall json-stringify-safe@5.0.1
+1408 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/jsonify
+1409 info build /vagrant_data/holidaybot/node_modules/jsonify
+1410 info preinstall jsonify@0.0.0
+1411 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1412 info linkStuff jsonify@0.0.0
+1413 verbose linkBins jsonify@0.0.0
+1414 verbose linkMans jsonify@0.0.0
+1415 verbose rebuildBundles jsonify@0.0.0
+1416 info install jsonify@0.0.0
+1417 info postinstall jsonify@0.0.0
+1418 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/jsprim
+1419 info build /vagrant_data/holidaybot/node_modules/jsprim
+1420 info preinstall jsprim@1.4.0
+1421 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1422 info linkStuff jsprim@1.4.0
+1423 verbose linkBins jsprim@1.4.0
+1424 verbose linkMans jsprim@1.4.0
+1425 verbose rebuildBundles jsprim@1.4.0
+1426 verbose rebuildBundles [ 'assert-plus' ]
+1427 info install jsprim@1.4.0
+1428 info postinstall jsprim@1.4.0
+1429 verbose rebuild bundle /vagrant_data/holidaybot/node_modules/libxmljs
+1430 info build /vagrant_data/holidaybot/node_modules/libxmljs
+1431 info preinstall libxmljs@0.18.4
+1432 verbose linkStuff [ false, false, false, '/vagrant_data/holidaybot/node_modules' ]
+1433 info linkStuff libxmljs@0.18.4
+1434 verbose linkBins libxmljs@0.18.4
+1435 verbose linkMans libxmljs@0.18.4
+1436 verbose rebuildBundles libxmljs@0.18.4
+1437 info install libxmljs@0.18.4
+1438 verbose unsafe-perm in lifecycle true
+1439 info libxmljs@0.18.4 Failed to exec install script
+1440 error libxmljs@0.18.4 install: `node-pre-gyp install --fallback-to-build --loglevel http`
+1440 error Exit status 1
+1441 error Failed at the libxmljs@0.18.4 install script.
+1441 error This is most likely a problem with the libxmljs package,
+1441 error not with npm itself.
+1441 error Tell the author that this fails on your system:
+1441 error     node-pre-gyp install --fallback-to-build --loglevel http
+1441 error You can get their info via:
+1441 error     npm owner ls libxmljs
+1441 error There is likely additional logging output above.
+1442 error System Linux 3.19.0-84-generic
+1443 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+1444 error cwd /vagrant_data/holidaybot
+1445 error node -v v0.10.25
+1446 error npm -v 1.4.21
+1447 error code ELIFECYCLE
+1448 verbose exit [ 1, true ]
